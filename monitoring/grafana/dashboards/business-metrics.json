@@ -1,0 +1,39 @@
+{
+  "dashboard": {
+    "id": null,
+    "title": "E-Commerce Business Metrics",
+    "panels": [
+      {
+        "id": 1,
+        "type": "graph",
+        "title": "Orders per Hour",
+        "datasource": "Prometheus",
+        "targets": [
+          {
+            "expr": "rate(orders_created_total[1h])",
+            "legend": "{{status}}"
+          }
+        ],
+        "gridPos": { "h": 8, "w": 12, "x": 0, "y": 0 }
+      },
+      {
+        "id": 2,
+        "type": "stat",
+        "title": "Total Revenue",
+        "datasource": "Prometheus",
+        "targets": [
+          {
+            "expr": "sum(order_total_amount)",
+            "legend": "Total Revenue"
+          }
+        ],
+        "gridPos": { "h": 8, "w": 12, "x": 12, "y": 0 }
+      }
+    ],
+    "schemaVersion": 36,
+    "time": {
+      "from": "now-24h",
+      "to": "now"
+    }
+  }
+}
